@@ -17,13 +17,13 @@ print(d)
 
 # Задача №4
 number = int(input("Введите целое положительное число:"))
-r = -1
+t = -1
 while number > 10:
     tail = number % 10
     number //= 10
-    if tail > r:
-        r = tail
-print(r)
+    if tail > t:
+        t = tail
+print(t)
 
 # Задача №5
 revenue = int(input("Выручка комапнии:"))
